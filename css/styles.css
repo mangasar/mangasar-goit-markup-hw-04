@@ -286,10 +286,13 @@ img {
 
 /* section-team*/
 
+
 .section-team{
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #F5F4FA;
 }
+
 
   .section-team h2 {
     font-weight: 700;
@@ -318,7 +321,9 @@ img {
     margin-top: 10px;
     margin-bottom: 16px;
   }
-
+.item{
+  background-color:#ffffff;
+}
   .team-item{
 padding-top: 30px;
 padding-bottom: 30px;
@@ -343,6 +348,7 @@ border-radius: 0px 0px 4px 4px;
   .team-social-list{
     display: flex;
     justify-content: center;
+    background-color: var(--primery-white-color);
   }
     .team-social-item{
       width: 44px;
@@ -443,10 +449,10 @@ border-radius: 0px 0px 4px 4px;
 
   /* footer */
 
+  footer{
+    background-color: #2F303A;
+  }
 .container-footer {
-  width: 1600px;
-  background-color: #2F303A;
-  padding-left: 215px;
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
@@ -498,14 +504,10 @@ border-radius: 0px 0px 4px 4px;
 
 .address p{
   color: var(--primery-white-color);
+  margin-right: 70px;
 }
 .address .link-tel{
   display: block;
-}
-
-.join-contacs{
-  margin-left: 156px;
-
 }
 
 .join-list{
